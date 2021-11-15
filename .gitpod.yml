@@ -1,8 +1,6 @@
 
 tasks:
-  - name: 'Terminal 1'
-    openMode: split-left
-    init: >
+  - init: >
      wget -qOdatabase-setup.sh https://codejudge-starter-repo-artifacts.s3.ap-south-1.amazonaws.com/backend-project/gitpod/java/db-gitpod-setup.sh &&
      chmod 0755 database-setup.sh &&
      chmod 0755 ./chrome-test-setup.sh &&
