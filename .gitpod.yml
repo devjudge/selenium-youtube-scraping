@@ -32,6 +32,10 @@ ports:
     name: "MongoDB Server"
     onOpen: ignore
     visibility: public
+  - port: 9515
+    name: "Chrome Driver"
+    onOpen: ignore
+    visibility: public
 vscode:
   extensions:
     - vscjava.vscode-java-pack
